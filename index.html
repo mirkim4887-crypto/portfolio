@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>김미르 | 무역학부 · 계량분석</title>
+  <meta name="description" content="무역학부에서 국제무역과 계량분석을 공부하는 김미르의 소개 페이지. 무역통계, 시계열·패널 분석, 중력모형을 다룹니다.">
+  <meta name="theme-color" content="#f6f4ee">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="김미르 | 무역학부 · 계량분석">
+  <meta property="og:description" content="데이터로 읽는 국제무역의 구조. 무역통계와 계량모형으로 질문을 검증합니다.">
+  <meta property="og:locale" content="ko_KR">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23121e2c'/%3E%3Cpath d='M8 22 L14 14 L19 18 L24 9' stroke='%23e8c07a' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif+KR:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+  <header class="site-header" id="header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home" aria-label="김미르, 맨 위로">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span class="brand-name">김미르</span>
+      </a>
+
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="메뉴 열기">
+        <span></span><span></span>
+      </button>
+
+      <nav class="nav" aria-label="주요 메뉴">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">소개</a></li>
+          <li><a href="#skills">역량</a></li>
+          <li><a href="#projects">프로젝트</a></li>
+          <li><a href="#education">학력</a></li>
+          <li><a href="#contact">연락</a></li>
+          <li>
+            <a class="nav-github" href="https://github.com/mirkim4887-crypto/AIpython" target="_blank" rel="noopener noreferrer">
+              GitHub
+              <svg class="ext-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+              <span class="sr-only">(새 탭에서 열림)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">무역학부 · 계량분석</p>
+          <h1>데이터로 읽는<br><span class="hl">국제무역</span>의 구조</h1>
+          <p class="lead">
+            안녕하세요, 무역학부에서 국제무역과 계량분석을 함께 공부하는 <strong>김미르</strong>입니다.
+            무역통계와 회귀모형을 오가며, 숫자 뒤에 있는 시장의 이야기를 읽는 일을 좋아합니다.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">프로젝트 보기</a>
+            <a class="btn btn-ghost" href="https://github.com/mirkim4887-crypto/AIpython" target="_blank" rel="noopener noreferrer">
+              <svg class="btn-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+              GitHub
+              <span class="sr-only">(새 탭에서 열림)</span>
+            </a>
+            <a class="btn btn-ghost" href="mailto:mirkim4887@pusan.ac.kr">이메일 보내기</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-panel reveal">
+            <div class="panel-head">
+              <span class="panel-title">무역량 지수</span>
+              <span class="panel-note">2015 = 100</span>
+            </div>
+            <svg class="chart" viewBox="0 0 420 240" role="img" aria-label="2019년부터 2024년까지 완만하게 상승하는 무역량 지수 추이를 나타낸 선 그래프">
+              <defs>
+                <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#0d6b62" stop-opacity=".22"/>
+                  <stop offset="100%" stop-color="#0d6b62" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <g class="grid">
+                <line x1="20" y1="40" x2="400" y2="40"/>
+                <line x1="20" y1="80" x2="400" y2="80"/>
+                <line x1="20" y1="120" x2="400" y2="120"/>
+                <line x1="20" y1="160" x2="400" y2="160"/>
+                <line x1="20" y1="200" x2="400" y2="200"/>
+              </g>
+              <path class="area" d="M20,170 C58,170 58,158 96,158 C134,158 134,150 172,150 C210,150 210,132 248,132 C286,132 286,120 324,120 C362,120 362,92 400,92 L400,200 L20,200 Z"/>
+              <path class="line" d="M20,170 C58,170 58,158 96,158 C134,158 134,150 172,150 C210,150 210,132 248,132 C286,132 286,120 324,120 C362,120 362,92 400,92"/>
+              <circle class="dot" cx="20" cy="170" r="3.5"/>
+              <circle class="dot" cx="96" cy="158" r="3.5"/>
+              <circle class="dot" cx="172" cy="150" r="3.5"/>
+              <circle class="dot" cx="248" cy="132" r="3.5"/>
+              <circle class="dot" cx="324" cy="120" r="3.5"/>
+              <circle class="dot-last" cx="400" cy="92" r="5"/>
+            </svg>
+            <div class="panel-foot" aria-hidden="true">
+              <span>2019</span><span>2021</span><span>2023</span><span>2024</span>
+            </div>
+            <div class="stat-card">
+              <p class="stat-label">추정 결과</p>
+              <p class="stat-value">β₁ = 0.42***</p>
+              <p class="stat-note">수출 물량 ↔ 환율 변동</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <ul class="facts">
+          <li>
+            <span class="fact-num">01</span>
+            <strong>무역학부</strong>
+            <span class="fact-desc">국제무역 · 무역정책</span>
+          </li>
+          <li>
+            <span class="fact-num">02</span>
+            <strong>계량분석</strong>
+            <span class="fact-desc">시계열 · 패널데이터</span>
+          </li>
+          <li>
+            <span class="fact-num">03</span>
+            <strong>현재</strong>
+            <span class="fact-desc">중력모형 재현 학습 중</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="wrap split">
+        <div class="section-head reveal">
+          <p class="label">About</p>
+          <h2>무역을 배우고,<br>데이터로 확인합니다</h2>
+        </div>
+
+        <div class="prose reveal">
+          <p>
+            무역학부에서 국제무역론과 무역정책을 공부하면서, 제도나 정책이 실제 흐름에 어떤 영향을
+            주는지 숫자로 확인하는 일에 흥미를 느꼈습니다. 그래서 계량경제학과 통계 분석을 함께
+            듣기 시작했습니다.
+          </p>
+          <p>
+            지금은 무역통계와 거시 데이터를 정리하고, 간단한 회귀모형으로 가설을 검증하는 연습을
+            하고 있습니다. 완벽한 모형보다 질문을 명확히 세우고, 데이터가 말해주는 범위 안에서
+            결론을 내리는 태도를 중요하게 생각합니다.
+          </p>
+
+          <div class="interest">
+            <h3>관심 있는 질문</h3>
+            <ul>
+              <li>환율 변동은 수출입 물량에 어느 시점에서 영향을 주는가</li>
+              <li>FTA는 무역창출과 무역전환에 얼마나 기여했는가</li>
+              <li>국가별 무역의존도 변화는 공급망 구조를 어떻게 보여주는가</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head wide reveal">
+          <p class="label">Toolkit</p>
+          <h2>쓰는 도구와 다루는 방법</h2>
+          <p class="section-desc">분석의 전 과정을 직접 다루는 것을 목표로 합니다. 데이터 정리부터 모형 추정, 결과 해석까지.</p>
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-card reveal">
+            <h3>데이터 분석</h3>
+            <ul class="tags">
+              <li class="tag">Python</li>
+              <li class="tag">pandas</li>
+              <li class="tag">NumPy</li>
+              <li class="tag">statsmodels</li>
+              <li class="tag">R (기초)</li>
+              <li class="tag">Excel</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>계량경제</h3>
+            <ul class="tags">
+              <li class="tag">회귀분석</li>
+              <li class="tag">시계열 (ARDL)</li>
+              <li class="tag">패널 고정효과</li>
+              <li class="tag">중력모형</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>무역 · 정책</h3>
+            <ul class="tags">
+              <li class="tag">무역통계 해석</li>
+              <li class="tag">관세 · FTA 기초</li>
+              <li class="tag">국제금융</li>
+              <li class="tag">무역정책</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3>재현과 협업</h3>
+            <ul class="tags">
+              <li class="tag">Jupyter</li>
+              <li class="tag">Git · GitHub</li>
+              <li class="tag">Markdown</li>
+              <li class="tag">LaTeX (기초)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head wide reveal">
+          <p class="label">Selected Work</p>
+          <h2>질문에서 결론까지</h2>
+          <p class="section-desc">무역통계를 직접 정리하고 모형으로 검증한 분석 노트입니다. 각 카드는 질문, 방법, 결과 순서로 읽을 수 있습니다.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project reveal">
+            <span class="status">완료</span>
+            <h3>환율 변동이 수출입에 미치는 영향</h3>
+            <dl>
+              <div>
+                <dt>질문</dt>
+                <dd>원/달러 환율과 수출입액은 어느 시점에서 관계를 갖는가</dd>
+              </div>
+              <div>
+                <dt>방법</dt>
+                <dd>월별 무역통계 + 분산시차모형(ARDL)</dd>
+              </div>
+              <div>
+                <dt>결과</dt>
+                <dd>즉시 효과보다 3~6개월 시차에서 유의한 음(−)의 관계</dd>
+              </div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">Python</li>
+              <li class="tag">시계열</li>
+            </ul>
+          </article>
+
+          <article class="project reveal">
+            <span class="status ongoing">진행 중</span>
+            <h3>FTA 체결국의 무역창출 효과</h3>
+            <dl>
+              <div>
+                <dt>질문</dt>
+                <dd>협정 체결 이후 교역량은 비교집단보다 더 빠르게 늘었는가</dd>
+              </div>
+              <div>
+                <dt>방법</dt>
+                <dd>국가-연도 패널 + 중력모형, 고정효과 추정</dd>
+              </div>
+              <div>
+                <dt>결과</dt>
+                <dd>표본 기간과 통제변수 설계를 조정하며 추정 중</dd>
+              </div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">패널데이터</li>
+              <li class="tag">중력모형</li>
+            </ul>
+          </article>
+
+          <article class="project reveal">
+            <span class="status">완료</span>
+            <h3>주요국 무역의존도 추이 분석</h3>
+            <dl>
+              <div>
+                <dt>질문</dt>
+                <dd>무역의존도 변화는 각국의 성장 경로를 어떻게 설명하는가</dd>
+              </div>
+              <div>
+                <dt>방법</dt>
+                <dd>World Bank·UN Comtrade 데이터 정리, 지표 시각화</dd>
+              </div>
+              <div>
+                <dt>결과</dt>
+                <dd>수출 주도형 경제의 의존도 곡선과 위기 이후 조정 비교</dd>
+              </div>
+            </dl>
+            <ul class="tags">
+              <li class="tag">데이터 시각화</li>
+              <li class="tag">무역통계</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="wrap">
+        <div class="section-head wide reveal">
+          <p class="label">Education</p>
+          <h2>전공과 과목, 그리고 활동</h2>
+        </div>
+
+        <ul class="timeline reveal">
+          <li>
+            <time>20XX.03 – 현재</time>
+            <div>
+              <h3>○○대학교 무역학부</h3>
+              <p>국제무역과 무역정책을 중심으로, 계량분석 과목을 함께 이수 중입니다.</p>
+            </div>
+          </li>
+          <li>
+            <time>수강 과목</time>
+            <div>
+              <h3>국제무역론 · 계량경제학 · 무역통계분석 · 국제금융론</h3>
+              <p>이론 과목과 데이터 분석 과목을 짝지어 듣고, 수업 과제를 분석 노트로 정리합니다.</p>
+            </div>
+          </li>
+          <li>
+            <time>20XX – 현재</time>
+            <div>
+              <h3>데이터 분석 학회 활동</h3>
+              <p>스터디에서 무역·거시 데이터를 주제로 발표하고, 공모전 팀 프로젝트에 참여하고 있습니다.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ NOW ============ -->
+    <section class="section" id="now">
+      <div class="wrap">
+        <div class="section-head wide reveal">
+          <p class="label">Now</p>
+          <h2>요즘 하고 있는 것</h2>
+        </div>
+
+        <ul class="now-list reveal">
+          <li>
+            <span class="idx">01</span>
+            <div>
+              <h3>시계열 모형 복습</h3>
+              <p>계량경제학 교재로 단위근과 공적분 개념을 다시 정리하고 있습니다.</p>
+            </div>
+          </li>
+          <li>
+            <span class="idx">02</span>
+            <div>
+              <h3>무역통계 파이프라인 만들기</h3>
+              <p>UN Comtrade와 World Bank 데이터를 내려받아 정리하는 스크립트를 작성 중입니다.</p>
+            </div>
+          </li>
+          <li>
+            <span class="idx">03</span>
+            <div>
+              <h3>중력모형 재현</h3>
+              <p>무역 분야 논문의 중력모형 결과를 R로 직접 재현해보고 있습니다.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="label light">Contact</p>
+        <h2>같이 이야기해요</h2>
+        <p class="contact-lead">
+          무역·데이터 분석 프로젝트, 스터디, 인턴십 관련해서 편하게 연락 주세요.
+          GitHub에는 공부하며 정리한 파이썬 코드를 올리고 있습니다.
+        </p>
+        <a class="btn btn-accent" href="mailto:mirkim4887@pusan.ac.kr">mirkim4887@pusan.ac.kr</a>
+
+        <ul class="contact-links">
+          <li>
+            <a href="https://github.com/mirkim4887-crypto/AIpython" target="_blank" rel="noopener noreferrer">
+              GitHub<span class="ext" aria-hidden="true">↗</span>
+            </a>
+          </li>
+          <!-- LinkedIn, 이력서 링크가 생기면 아래 형식으로 추가하세요
+          <li><a href="https://www.linkedin.com/in/..." target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer">이력서 (PDF)</a></li>
+          -->
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrap footer">
+      <p>© <span id="year">2026</span> 김미르. All rights reserved.</p>
+      <p>HTML · CSS · JavaScript로 직접 만들었습니다.</p>
+    </div>
+  </section>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
